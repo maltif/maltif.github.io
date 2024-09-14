@@ -1,0 +1,71 @@
+baseURL: "https://devopshawk.com"
+languageCode: "en-us"
+title: "DevOps Hawk"
+theme: "hugo-profile"
+
+params:
+  title: "DevOps Hawk"
+  description: "Senior DevOps Engineer | AWS & Kubernetes Specialist"
+  # favicon: "/images/favicon.ico"
+
+  # Customize the home page sections
+  profileMode:
+    enabled: true
+    title: "DevOps Hawk"
+    subtitle: "Senior DevOps Engineer with over a decade of experience"
+    imageUrl: "/images/avatar.jpg"
+    imageTitle: "DevOps Hawk"
+    buttons:
+      - name: Blog
+        url: "/blog"
+      - name: Projects
+        url: "/projects"
+
+  # Customize the header menu
+  navigation:
+    header:
+      - name: Home
+        url: "/"
+        weight: 1
+      - name: Blog
+        url: "/blog"
+        weight: 2
+      - name: Projects
+        url: "/projects"
+        weight: 3
+      - name: About
+        url: "/about"
+        weight: 4
+      - name: Contact
+        url: "/contact"
+        weight: 5
+
+  # Add your social media links
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/mohlatif227"
+    - name: "github"
+      url: "https://github.com/maltif"
+    - name: "twitter"
+      url: "https://twitter.com/yourhandle"
+
+  # Customize the about section
+  about:
+    enable: true
+    title: "About Me"
+    content: "I'm a Senior DevOps Engineer with over a decade of experience in IT. Specialized in Linux, AWS, Docker, Kubernetes, and Terraform. Passionate about automating processes and optimizing infrastructure."
+    skills:
+      - "Linux (RHEL and RHCSA certified)"
+      - "AWS Cloud (2x certified)"
+      - "Docker and Kubernetes (3x certified - CKAD/CKA/CKS)"
+      - "Terraform (Terraform Associate certified)"
+      - "CI/CD (Jenkins, GitHub Actions)"
+      - "Shell Scripting and Python"
+      - "Git/GitHub"
+      - "Jira/Confluence"
+      - "Databases (RDS, DynamoDB)"
+
+# Enable syntax highlighting
+markup:
+  highlight:
+    style: monokai
